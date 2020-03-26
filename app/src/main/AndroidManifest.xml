@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mateus.calculoescolar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/calc_media_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/calc_media_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".PrincipalActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PortuguesActivity" />
+        <activity android:name=".MatematicaActivity" />
+        <activity android:name=".FisicaActivity" />
+        <activity android:name=".QuimicaActivity" />
+        <activity android:name=".GeografiaActivity" />
+        <activity android:name=".HistoriaActivity" />
+        <activity android:name=".FilosofiaActivity" />
+        <activity android:name=".SociologiaActivity" />
+        <activity android:name=".InglesActivity" />
+        <activity android:name=".BiologiaActivity" />
+        <activity android:name=".ArtesActivity" />
+        <activity android:name=".EducacaoFisicaActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ConfiguracaoActivity" />
+        <activity android:name=".Sobre_AppActivity" />
+        <activity android:name=".Como_UsarActivity"></activity>
+    </application>
+
+</manifest>

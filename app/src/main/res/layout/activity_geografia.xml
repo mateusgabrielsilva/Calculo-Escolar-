@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".GeografiaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@mipmap/calc_media_icon"
+                android:layout_gravity="center"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/geografia"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Geografia"
+                    android:layout_gravity="center"
+                    android:textSize="8sp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faltas"
+            android:layout_gravity="center"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:background="@drawable/layout_border">
+
+            <EditText
+                android:id="@+id/txtF1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="1ºB"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:inputType="number"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/txtF2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="2ºB"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:inputType="number"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/txtF3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="3ºB"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:inputType="number"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/txtF4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="4ºB"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:inputType="number"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notas"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:background="@drawable/layout_border">
+
+            <EditText
+                android:id="@+id/txtB1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="1ºB"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/txtB2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="2ºB"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/txtB3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="3ºB"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/txtB4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="4ºB"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtSituacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/txtMedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/txtFaltas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Calcular"
+            android:background="@drawable/layout_border"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

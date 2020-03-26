@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Calc Média</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Calc Média</string>
+    <string name="nav_header_subtitle">contato@mndeveloper.com.br</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="cpnfig_limpar">Olá alunos, nesta pagina de configuração temos apenas o botão para fazer a limpeza dos campos que estão preenchidos. Você devera utiliza-lo quando acabar o ano letivo e estiver preenchido todos os campos assim deixando a aplicação prontinha para ser utilizada no próximo ano.
+        \n
+        \n
+        Lembre-se ao pressionar o botão abaixo você limpará todos os campos.
+    </string>
+
+    <string name="sobre_app">O Calc Média foi desenvolvido pela micro-empresa M.N Developer sediada em São José dos Campos - SP.
+    \n
+    \n
+    O intuito do aplicativo é ajudar os alunos do ensino médio a terem um acesso um pouco mais rápido ao seu andamento escolar, sendo assim a cada semestre cursado o aluno entra com o número de faltas e a nota tirada, para que assim o programa irá guardando essas notas e faltas para que possam ser vistas depois.
+    \n
+    \n
+    Conforme o aluno vai colocando as faltas e as notas o resultado vai sendo armazenado e mostrado na tela inicial em cada matéria especifica.
+    </string>
+
+    <string name="como_usar">Ao abrir a aplicação nos deparamos com a tela inicial onde fica as matérias, a lateral direita de cada matéria temos um botão (EDITAR). Ao clicar-mos abrirá uma nova tela para que o aluno possa inserir suas notas.
+    \n
+    \n
+    Nessa nova tela ira ter o ícone do App, ao lado o ícone e nome da matéria correspondente. Logo abaixo iremos ter 8 campos de digitação sendo os 4 de cima para Faltas e os 4 abaixo para as Notas, todas elas estão demarcadas do 1º ao 4º semestre para o aluno não ficar confuso.
+    \n
+    \n
+    E por fim temos o botão calcular, que ao ser digitado a nota e as faltas o aluno pressiona o botão calcular para guardar as informações e ir fazendo os cálculos das notas e faltas.
+    \n
+    \n
+    Ao pressionar o botão de voltar ele irá te direcionar a Tela Principal, assim te exibindo quantas faltas você esta e qual a média atingida.
+    </string>
+
+    <string name="limpar_dados">Ao completar o ano vai estar todos os campos do aplicativos preenchidos. Para conseguir limpar os campos iremos ate a Tela Principal, chegando na mesma podemos deslizar a tela da Esquerda para Direita OU pressionando o botão de MENU no canto superior esquerdo para abrir a aba de Menus.
+    \n
+    \n
+    Uma vez com a aba de MENU aberta selecionamos Config, assim ele nos direciona até uma Tela onde temos um Botão escrito LIMPAR. Na própria tela Config tem uma mensagem dizendo quando utilizar o Botão.
+    \n
+    \n
+    Qualquer erro que ocorrer com o app pode nos relatar por email.
+    </string>
+</resources>
